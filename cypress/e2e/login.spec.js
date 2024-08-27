@@ -15,6 +15,5 @@ describe('Login', () => {
             expect(response.body.message).to.equal('Login realizado com sucesso')
             cy.log(response.body.authorization)
         })
-    });
-
+    }); 
 });
